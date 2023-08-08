@@ -5,5 +5,5 @@ export function debounce<Fn extends Function>(fn: Fn, ms: number): Fn {
     timeoutId = window.setTimeout(() => fn(...args), ms);
   };
 
-  return <Fn>(<any>debounced);
+  return (debounced as any) as Fn;
 }
