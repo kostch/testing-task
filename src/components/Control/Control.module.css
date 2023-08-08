@@ -16,4 +16,13 @@
 .text {
     width: 200px;
     overflow: hidden;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+    outline: none;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+}
+
+.text:focus {
+    border: 2px solid;
 }

@@ -3,7 +3,7 @@ import {observable, action, makeObservable} from 'mobx';
 export class ControlStore {
   @observable text: string;
 
-  constructor(text: string = 'asd') {
+  constructor(text: string = 'Введите текст') {
     makeObservable(this);
     this.text = text;
   }

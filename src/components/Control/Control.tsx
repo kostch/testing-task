@@ -20,7 +20,7 @@ export const Control= observer(({store, leftButtons, rightButtons}: ControlProps
           ))}
       </div>
 
-      <span className={cls.text}>{store.text}</span>
+      <input type="text" className={cls.text} value={store.text} onChange={(e) => store.setText(e.target.value)}/>
 
       <div className={cls.rightColumn}>
         {rightButtons &&
