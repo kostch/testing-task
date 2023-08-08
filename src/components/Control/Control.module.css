@@ -1,0 +1,19 @@
+.control {
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.leftColumn, .rightColumn {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.text {
+    width: 200px;
+    overflow: hidden;
+}

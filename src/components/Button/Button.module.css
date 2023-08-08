@@ -1,0 +1,12 @@
+.button {
+    cursor: pointer;
+    background: linear-gradient(315deg, pink, purple);
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.button:focus {
+    opacity: 0.9;
+}
