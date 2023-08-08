@@ -1,0 +1,44 @@
+.input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    margin: 1px;
+    width: 370px;
+}
+
+.input:focus {
+    border: 2px solid;
+    margin: 0;
+}
+
+.hint {
+    border: 1px solid gray;
+    display: flex;
+    margin-bottom: -1px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    max-width: 380px;
+    width: 100%;
+    margin-left: 1px;
+    row-gap: 5px;
+    align-items: center;
+}
+
+.hint img {
+    margin-left: auto;
+    height: 20px;
+    width: auto;
+    padding-left: 15px;
+}
+
+.hint:hover {
+    background-color: lightgray;
+}
+
+.text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: calc(100% - 55px);
+}
